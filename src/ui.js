@@ -27,7 +27,7 @@ function createInfo() {
   const infoElement = document.createElement('div');
   infoElement.classList.add('info');
   infoElement.innerHTML = `<h2>Welcome to TheMealDM</h2><p>Welcome to TheMealDB: An open, crowd-sourced database of Recipes from around the world.</p><p>We also offer a free JSON API for anyone wanting to use it, with additional features for subscribers.</p>
-  <button><span class='sp1'>Pay</span><span class='sp2'>Pal</span> <span class='sp3'>Subscribe</span></button><p>Click to Support $2 per month (cancel anytime)</p><p>Currently 50 supporters</p><hr><h4>Latest Meal</h4><hr>`;
+  <button><span class='sp1'>Pay</span><span class='sp2'>pal</span> <span class='sp3'>Subscribe to our Newsletter</span></button><p>Click to Support $2 per month (cancel anytime)</p><p>Currently 50 supporters</p><hr><h4>Latest Meal</h4><hr>`;
   return infoElement;
 }
 
